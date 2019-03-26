@@ -1,0 +1,80 @@
+//Declare font
+
+$font-family-title__base: 'Montserrat';
+$font-family-title: $font-family-title__base, Helvetica, Arial, sans-serif;
+$font-family-content__base: 'Open Sans';
+$font-family-content: $font-family-content__base, Helvetica, Arial, sans-serif;
+
+
+$font-size-base: 16px;
+$font-size-xxl: 48px;
+$font-size-xl: 32px;
+$font-size-lg: 24px;
+$font-size-md: 14px;
+$font-size-sm: 12px;
+$font-size-xs: 10px;
+
+
+//Screen
+$screen-md: 768px;
+
+//Color
+//Main color
+$color-tomato:                            #ef4e23 !default;
+$color-orange:                            #d0380f !default;
+$color-orange-dark:                       #c6350e !default;
+$color-orange-darken:                     #af2f0d !default;
+$color-red-lightest:                      #ce8483 !default;
+$color-red-light:                         #db3236 !default;
+$color-red-dark:                          #89250a !default;
+$color-bluesky-dark:                      #4990e2 !default;
+$color-denim:                             #3b5998 !default;
+$color-teal:                              #007bb6 !default;
+$color-bluesky-darken:                    #0084ff !default;
+$color-blue-darkest:                      #2e4057 !default;
+//White
+$color-white:                             #fff    !default;
+$color-white-smoke:                       #f5f5f5 !default;
+$color-white-smoke-darker:                #f2f2f2 !default;
+$color-almost-white:                      #fff5f2 !default;
+$color-white-light:                       #f3f3f3 !default;
+$color-white-grey-light:                  #e2d8d5 !default;
+$color-white-grey:                        rgba(255, 255, 255, .64) !default;
+$color-grey-lighter:                      #979797 !default;
+$color-grey-light:                        #9b9b9b !default;
+$color-grey:                              #808080 !default;
+$color-grey-dark:                         #727272 !default;
+$color-silver:                            #c0c0c0 !default;
+$color-silver-dark:                       #a1a2ad !default;
+
+$color-gray-lightest:                     #7e7e7e !default;
+$color-gray-lighter:                      #8a8a8a !default;
+$color-gray-light:                        #909090 !default;
+$color-gray:                              #a9a9a9 !default;
+$color-charcoal-grey-lightest:            #918f8e !default;
+$color-charcoal-grey-light:               #d6d3d7 !default;
+$color-charcoal-grey:                     #4a4a4a !default;
+$color-charcoal-grey-dark:                #484342 !default;
+$color-brown:                             rgba(28, 10, 6, 0.82) !default;
+$color-black-lightest:                    #231e1c !default;
+$color-black-lighter:                     #2b2331 !default;
+$color-black-light:                       #1f1f1f !default;
+$color-black-dark:                        rgba(0,0,0,.5) !default;
+$color-black-darker:                      rgba(0,0,0,.14) !default;
+$color-black-darken:                      #141414 !default;
+$color-almost-black:                      #1a1413 !default;
+$color-black:                             #000    !default;
+
+$color-btn-default:                       #6d6968  !default;
+$color-btn-primary:                       #ef4e23  !default;
+$color-btn-primary__hover:                #de4922  !default;
+$color-btn-primary__selected:             #cc4420  !default;
+$color-btn-secondary:                     #6d6968  !default;
+$color-btn-secondary__hover:              #484342  !default;
+$color-btn-secondary__selected:           #231e1c  !default;
+$color-btn-stroke__hover:                 #ededed  !default;
+$color-btn-stroke__selected:              #dad9d9  !default;
+
+$color-facebook:                          #4267b2 !default;
+$color-linkedin:                          #0077b5 !default;
+$color-google-plus:                       #d34836 !default;

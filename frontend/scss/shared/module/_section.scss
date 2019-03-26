@@ -1,0 +1,159 @@
+/* About section */
+
+.section {
+  background-color: $color-white-smoke;
+  padding: 10rem 0;
+}
+
+.section-header {
+  position: relative;
+  text-align: center;
+  &:before {
+    background-color: $color-black;
+    content: "";
+    height: 0.2rem;
+    position: absolute;
+    width: 4rem;
+    bottom: 0;
+    @include translate(-50%,0);
+  }
+}
+
+.title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.content {
+    font-size: 1.4rem;
+    padding: 1.6rem 0;
+}
+
+.feature {
+  p {
+    font-size: 1.6rem;
+  }
+  text-align: center;
+}
+
+.img-wrapper {
+  background-color: $color-black;
+  border-radius: 50%;
+  height: 12rem;
+  margin: 0 auto;
+  padding: 4rem 3rem;
+  text-align: center;
+  width: 12rem;
+}
+
+.works {
+  background-color: $color-white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 6rem;
+}
+
+.gallery-wrapper {
+  img {
+    width: 100%;
+  }
+}
+
+.team {
+  background-image: url(../img/img_bg-2.png);
+  background-size: cover;
+  height: calc(100vw*9/16);
+  position: relative;
+  width: 100%;
+  z-index: -2;
+  &:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    @include custom-gradient(#29323C, #485563, 0%, 100%, $deg: 180deg);
+    @include opacity(.5);
+  }
+  .section-header {
+    color: $color-white;
+    &:before {
+      content:"";
+      background-color: $color-white;
+    }
+  }
+}
+
+.people {
+  margin-top: 8.5rem;
+}
+
+.people-info {
+  background-color: $color-white-smoke-darker;
+  color: $color-black;
+  opacity: .75;
+  padding: 3rem 0;
+  width: 27rem;
+  h4 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}
+
+.fullteam {
+  margin-top: 9.4rem;
+  margin-bottom: 7rem;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+  margin-top: auto;
+  .brand {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+.pricing {
+  background-color: $color-white;
+  .section-header {
+  color: $color-black;
+  &:before {
+    background-color: $color-black;
+    content: "";
+    height: 0.2rem;
+    position: absolute;
+    width: 4rem;
+    bottom: 0;
+    @include translate(-50%,0);
+  }
+  }
+}
+
+.table-price {
+  border: 1px solid $color-black;
+  height: 50rem;
+  text-align: center;
+  .top {
+
+    h4 {
+      font-size: 4.5rem;
+    }
+    p {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+    }
+  }
+  .bottom {
+
+  }
+}

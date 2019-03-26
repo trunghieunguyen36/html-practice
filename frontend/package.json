@@ -1,0 +1,20 @@
+{
+  "name": "CSS_MODULES",
+  "version": "1.0.0",
+  "description": "development package definition for css-modules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "lodash": "^4.17.4"
+  }
+}
