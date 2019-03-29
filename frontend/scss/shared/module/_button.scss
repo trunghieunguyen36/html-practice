@@ -1,3 +1,4 @@
+
 .button {
   border: 1px solid $color-white;
   border-radius: 2rem;
@@ -54,5 +55,23 @@
 
 
 .signup {
+  border: 1px solid $color-black;
   background-color: $color-black;
+  &:hover {
+    background: lighten($color-black, 30%);
+    color: $color-black;
+    @include transition(.4s);
+  }
+}
+
+.submit {
+  background: transparent;
+  border: 1px solid $color-white;
+  border-radius: 2%;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  height: 4.5rem;
+  margin-left: 26.5rem;
+  width: 12rem;
 }

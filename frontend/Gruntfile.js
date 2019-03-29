@@ -18,7 +18,8 @@ module.exports = function(grunt) {
         concat: {
           js: {
             src: ['js/jquery.min.js',
-                  'js/bootstrap.min.js'
+                  'js/bootstrap.min.js',
+                  'js/slick.min.js'
             ],
             dest: '../public/js/main.js',
           },
